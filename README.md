@@ -25,3 +25,27 @@
 ---
 
 ## 📁 Структура проекта
+Summary_project/
+├── Models/ # Классы сущностей (Book, Reader, Loan)
+├── Data/ # Контекст базы данных (LibraryContext)
+├── Views/ # XAML окна
+│ ├── BookViews/ # CRUD для книг
+│ ├── ReaderViews/ # CRUD для читателей
+│ ├── LoanViews/ # Выдача и возврат
+│ └── AuthorViews/ # Справочник авторов
+├── App.xaml # Точка входа приложения
+└── MainWindow.xaml # Главное окно
+
+---
+
+## 🚀 Быстрый старт
+
+### Требования
+- Windows 7/10/11
+- Visual Studio 2019/2022
+- MS SQL Server (или SQL Server Express)
+
+### Запуск
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/WaveSilent/Summary_project.git
